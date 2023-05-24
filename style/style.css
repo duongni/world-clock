@@ -1,0 +1,12 @@
+body {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 19px;
+  background: #fffffe;
+  color: #232946;
+  text-align: center;
+}
+h1 {
+  padding-top: 20px;
+}
