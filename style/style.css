@@ -67,7 +67,11 @@ strong {
   margin-top: 40px;
   padding-bottom: 15px;
 }
-
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .current-date {
   font-size: 16px;
   color: #d79922;
@@ -95,10 +99,5 @@ strong {
   }
   .current-date {
     font-size: 14px;
-  }
-  .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
   }
 }
