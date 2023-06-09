@@ -61,13 +61,10 @@ strong {
 .container {
   max-width: 490px;
   background: #f1f0ea;
-  margin: 0, auto;
   border: 2px solid #2a522c;
   border-radius: 5px;
-
   padding: 30px;
   margin-top: 40px;
-  font-size: 18px;
   padding-bottom: 15px;
 }
 
@@ -82,4 +79,26 @@ strong {
 }
 .current-time {
   color: #f13c20;
+}
+@media (max-width: 414px) {
+  .container {
+    max-width: 350px;
+    margin-top: 40px;
+    font-size: 14px;
+    padding-bottom: 15px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  .city {
+    font-size: 20px;
+  }
+  .current-date {
+    font-size: 14px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
